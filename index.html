@@ -160,40 +160,44 @@
             </div>
         </section>
 
-        <!-- 2. 私たちの農園について (About Us) -->
+        <!-- 2. 三川屋農園について (About Us) -->
         <section id="about" class="py-16 md:py-24 px-4">
             <div class="max-w-6xl mx-auto">
                 <div class="text-center mb-12 md:mb-16">
                     <span class="text-farmGreen font-bold tracking-widest text-sm uppercase">About Us</span>
-                    <h2 class="text-3xl md:text-4xl font-bold mt-2">私たちの農園について</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">三川屋農園について</h2>
                     <div class="w-16 h-1 bg-tomato mx-auto mt-4 rounded-full"></div>
                 </div>
 
                 <div class="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
-                    <div class="w-full md:w-1/2">
-                        <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="農作業の風景" class="rounded-3xl shadow-xl w-full h-[300px] md:h-[400px] object-cover">
+                    <div class="w-full md:w-1/2 relative pb-10 md:pb-0">
+                        <!-- メイン画像 (御作町の山あいと川) -->
+                        <img src="images/about-river.jpg"
+                            alt="農園のある御作町の山あい" class="rounded-3xl shadow-xl w-full h-[300px] md:h-[400px] object-cover object-[center_60%]">
+
+                        <!-- サブ画像 (矢作川と農園の位置) -->
+                        <div
+                            class="absolute -bottom-2 right-3 md:-bottom-8 md:-right-6 w-40 md:w-60 rounded-2xl overflow-hidden border-4 md:border-8 border-white shadow-2xl bg-white z-10">
+                            <img src="images/about-map.jpg" alt="矢作川と三川屋農園の位置（豊田市御作町）" class="w-full h-auto">
+                        </div>
                     </div>
                     <div class="w-full md:w-1/2 space-y-6">
-                        <h3 class="text-2xl font-bold text-gray-800">美味しい野菜は、元気な土から。</h3>
+                        <h3 class="text-2xl font-bold text-gray-800">豊かな山と清らかな水が、<br />うま味の土台をつくる</h3>
                         <p class="text-gray-600 leading-relaxed text-sm md:text-base">
-                            三川屋農園は、愛知県豊田市の豊かな自然に囲まれた場所にあります。私たちが一番大切にしているのは「土づくり」。化学肥料に頼りすぎず、有機質肥料をたっぷりと使い、微生物が活発に働くふかふかの土を育てています。
-                        </p>
-                        <p class="text-gray-600 leading-relaxed text-sm md:text-base">
-                            この元気な土と、豊田市のさんさんと降り注ぐ太陽の光が、野菜本来の濃い旨味と甘みを引き出します。「安心・安全」は当たり前。思わず笑顔がこぼれるような「本当に美味しい」野菜をお届けします。
+                            農園がある豊田市御作町は、矢作川水系の緑豊かな山あい。森に囲まれ、きれいな空気と水に恵まれた里山です。山々を抜けて流れるミネラル豊富な水と、豊かな自然に囲まれた環境が、甘み・酸味・うま味がぎゅっと詰まった味わいの土台になっています。
                         </p>
                         <div class="pt-4 grid grid-cols-3 gap-2">
                             <div
                                 class="flex flex-col items-center gap-1 text-farmGreen bg-farmGreen/5 p-3 rounded-2xl text-[10px] md:text-sm font-bold">
-                                <i class="ph-fill ph-sun text-2xl"></i> 豊かな日照量
+                                <i class="ph-fill ph-mountains text-2xl"></i> 自然豊かな山あい
                             </div>
                             <div
                                 class="flex flex-col items-center gap-1 text-farmGreen bg-farmGreen/5 p-3 rounded-2xl text-[10px] md:text-sm font-bold">
-                                <i class="ph-fill ph-drop text-2xl"></i> 清らかな水
+                                <i class="ph-fill ph-drop text-2xl"></i> ミネラル豊富な水
                             </div>
                             <div
                                 class="flex flex-col items-center gap-1 text-farmGreen bg-farmGreen/5 p-3 rounded-2xl text-[10px] md:text-sm font-bold">
-                                <i class="ph-fill ph-plant text-2xl"></i> こだわりの土
+                                <i class="ph-fill ph-sparkle text-2xl"></i> 濃厚なうま味
                             </div>
                         </div>
                     </div>
